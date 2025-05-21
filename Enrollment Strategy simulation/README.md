@@ -1,0 +1,1 @@
+This project analyzes university enrollment strategies through simulation-based methods. By using programming to model different admission and recruitment scenarios, it aims to provide insights into how various policy choices may affect enrollment outcomes.
