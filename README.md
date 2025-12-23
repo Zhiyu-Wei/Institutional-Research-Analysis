@@ -28,7 +28,7 @@ The simulation is designed to address the following questions:
 ### Students
 
 - The population consists of 1,000 students.
-- Each student has an unobserved latent academic ability, categorized into 10 levels (T1–T10).
+- Each student has an unobserved latent academic ability, categorized into 10 levels from T1(lowest-ranked) to T10(highest-ranked).
 - Each ability level contains the same number of students.
 - Academic ability is fixed and does not change across simulations.
 
@@ -58,7 +58,7 @@ For each school \( S_k \) (k = 1, …, 10), the simulation varies the number of 
 
 - The focal school admits \( x = 1, \dots, 100 \) students in the first stage.
 - All other schools keep their first-stage quotas fixed.
-- For each combination of \( (S_k, x) \), the admission process is repeated 1,000 times.
+- For each combination of \( (S_k, x) \), the admission process is repeated 100 times.
 
 This design allows us to isolate the effect of early admission quotas on each school while keeping the broader system unchanged.
 
@@ -72,7 +72,7 @@ The simulation produces multiple layers of output:
    A 10 × 100 matrix summarizing the mean academic level of admitted students for each school and each first-stage quota.
 
 2. **Monte Carlo realizations**  
-   For each school, a 1,000 × 100 matrix storing the result of every individual simulation run, enabling analysis of variability and risk.
+   For each school, a 100 × 100 matrix storing the result of every individual simulation run, enabling analysis of variability and risk.
 
 3. **Uncertainty assessment**  
    Pointwise 95% Monte Carlo intervals are constructed to illustrate the dispersion of outcomes under repeated admissions.
