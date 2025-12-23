@@ -107,13 +107,13 @@ For the Tier1 school, the average admitted ability exhibits a non-monotonic patt
 Having summarized the overall patterns from the combined plot, we now zoom in on individual schools by plotting them separately. These school-specific figures provide a clearer view of the relationship between the first-stage intake size x and the average admitted ability level. For each selected school, we also include the corresponding 95% distribution interval to reflect the variability across simulation runs.
 
 <p align="center">
-  <img src="figures/all.png" alt="Average admitted ability vs. first-stage intake size" width="750">
+  <img src="figures/T10school.png" alt="Average admitted ability vs. first-stage intake size" width="750">
 </p>
 
 <p align="center">
-  <img src="figures/all.png" alt="Average admitted ability vs. first-stage intake size" width="750">
+  <img src="figures/T3school.png" alt="Average admitted ability vs. first-stage intake size" width="750">
 </p>
 
 <p align="center">
-  <img src="figures/all.png" alt="Average admitted ability vs. first-stage intake size" width="750">
+  <img src="figures/T1school.png" alt="Average admitted ability vs. first-stage intake size" width="750">
 </p>
