@@ -85,5 +85,20 @@ out_mat
 | Tier10 | 1.3121 | 1.3158 | 1.3233 | 1.3445 | 1.3651 | 1.3692 | 1.3986 | 1.4194 | 1.4226 | 1.4536 |
 
 
+The figure below illustrates the relationship between the first-stage intake size and the average ability level of admitted students across school tiers; since no legend is shown, the curves from top to bottom correspond to Tier1 through Tier10, respectively.
 
+```r
+x <- 1:100
+matplot(
+    x, t(out_mat),
+    type = "l", lty = 1, lwd = 2,
+    xlab = "First-stage intake size (x)",
+    ylab = "Average ability level of admitted students",
+    main = "School tiers (Tier1–Tier10): average admitted ability vs. intake size x"
+  )
+```
+
+<p align="center">
+  <img src="figures/all.png" alt="Average admitted ability vs. first-stage intake size" width="750">
+</p>
 
