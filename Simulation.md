@@ -2,7 +2,7 @@
 
 In this simulation, our goal is to construct a probability-based representation of students’ exam performance and use it as the foundation for subsequent sampling and analysis.
 
-We begin by loading the required packages for parallel computation and reproducible simulations. We then source a set of custom functions hosted on GitHub, including a utility for constructing the probability matrix. The resulting object, `prob_mat`, characterizes the distribution of **student ability levels (T1–T10)** across **exam outcomes (S1–S10)** and serves as the core input for the simulation study.
+We begin by loading the required packages for parallel computation and reproducible simulations. We then source a set of custom functions hosted on GitHub, including a utility for constructing the probability matrix. The resulting object, `prob_mat`, characterizes the distribution of **student ability levels (T1–T10)** across **exam outcomes (1–10)** and serves as the core input for the simulation study.
 
 
 ```r
