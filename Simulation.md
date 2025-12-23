@@ -33,4 +33,4 @@ Rows correspond to student ability levels (Tier1–Tier10), columns correspond t
 | Tier9 | 0.0000 | 0.0000 | 0.0001 | 0.0011 | 0.0072 | 0.0327 | 0.1101 | 0.2872 | 0.5469 | 0.0148 |
 | Tier10| 0.0000 | 0.0000 | 0.0000 | 0.0002 | 0.0012 | 0.0064 | 0.0258 | 0.0857 | 0.2475 | 0.6331 |
 
-
+For example, the first row corresponds to Tier-1 students. A Tier-1 student has a probability of 0.7202 of scoring 10 points (the maximum score) on the exam, and a probability of 0.2138 of scoring 9 points.
