@@ -2,7 +2,8 @@
 
 In this simulation, our goal is to construct a probability-based representation of students’ exam performance and use it as the foundation for subsequent sampling and analysis.
 
-We begin by loading the required packages for parallel computation and reproducible simulations. We then source the custom functions hosted on GitHub, which include the utility for constructing the probability matrix. The resulting object, `prob_mat`, encodes the distribution of student level (T1–T10) for exam outcomes (S1–S10).
+We begin by loading the required packages for parallel computation and reproducible simulations. We then source a set of custom functions hosted on GitHub, including a utility for constructing the probability matrix. The resulting object, `prob_mat`, characterizes the distribution of **student ability levels (T1–T10)** across **exam outcomes (S1–S10)** and serves as the core input for the simulation study.
+
 
 ```r
 library(doParallel)
@@ -17,7 +18,7 @@ prob_mat <- build_prob_mat()
 ```
 ### Probability Matrix (prob_mat)
 
-Rows correspond to students levels (T1–T10), columns correspond to exam outcomes (1–10), and each entry represents the probability mass assigned to a given student at a given level.
+Rows correspond to student ability levels (T1–T10), columns correspond to exam outcomes (10–1), and each entry represents the probability that a student at a given ability level attains a particular exam outcome. Each row therefore forms a valid probability distribution over exam outcomes.
 
 |        | 10     | 9     | 8     | 7     | 6     | 5     | 4     | 3     | 2     | 1    |
 |--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
