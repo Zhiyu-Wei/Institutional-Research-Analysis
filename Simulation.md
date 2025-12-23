@@ -1,6 +1,6 @@
 # Simulation 
 
-ˋˋˋr
+```r
 
 library(doParallel)
 library(foreach)
@@ -11,9 +11,4 @@ source(
 )
 
 prob_mat <- build_prob_mat()
-
-
-
-
-
-ˋˋˋ
+```
