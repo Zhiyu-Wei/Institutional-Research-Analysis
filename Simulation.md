@@ -102,3 +102,18 @@ matplot(
   <img src="figures/all.png" alt="Average admitted ability vs. first-stage intake size" width="750">
 </p>
 
+For the Tier1 school, the average admitted ability exhibits a non-monotonic pattern, reaching its maximum when the first-stage intake size lies approximately between x = 60 and 80, after which it slightly declines. In contrast, schools in the middle tiers display a generally increasing trend, with the average admitted ability rising steadily as x increases. For the lowest-tier schools, however, the average ability level appears largely insensitive to changes in x, remaining relatively flat across different intake sizes.
+
+Having summarized the overall patterns from the combined plot, we now zoom in on individual schools by plotting them separately. These school-specific figures provide a clearer view of the relationship between the first-stage intake size x and the average admitted ability level. For each selected school, we also include the corresponding 95% distribution interval to reflect the variability across simulation runs.
+
+<p align="center">
+  <img src="figures/all.png" alt="Average admitted ability vs. first-stage intake size" width="750">
+</p>
+
+<p align="center">
+  <img src="figures/all.png" alt="Average admitted ability vs. first-stage intake size" width="750">
+</p>
+
+<p align="center">
+  <img src="figures/all.png" alt="Average admitted ability vs. first-stage intake size" width="750">
+</p>
