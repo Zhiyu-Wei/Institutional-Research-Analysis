@@ -117,3 +117,6 @@ Having summarized the overall patterns from the combined plot, we now zoom in on
 <p align="center">
   <img src="figures/T10school.png" alt="Average admitted ability vs. first-stage intake size" width="750">
 </p>
+
+From the school-specific plots, we can see more clearly that the Tier1 school achieves its highest average admitted ability around x ≈ 80. For both Tier3 and Tier10, the average admitted ability increases as x grows; the difference is that the change is much smaller for Tier10 (i.e., the curve is flatter).
+
